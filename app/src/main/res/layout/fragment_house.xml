@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:id="@+id/learning"
+    tools:context=".Fragment2" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Housing Chickens"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <ImageView
+        android:id='@+id/imgBuy'
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src='@drawable/freerange'
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="75dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="HOUSING IN FREE-RANGE SYSTEMS.
+                                         KukuApp enables customers to buy from our esteemed sellers quality chicken with very high ratind"
+        android:textAlignment="center"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"
+        />
+
+    <ImageView
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src='@drawable/housings'
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="215dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="PROTECTION: shelter sheds and buildings.
+                                     KukuApp enables customers to buy from our esteemed sellers quality chicken with very high ratind"
+        android:textAlignment="center"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"
+        />
+
+
+    <ImageView
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src='@drawable/light'
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="365dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" LIGHT: duration and intensity.
+                                      KukuApp enables customers to buy from our esteemed sellers quality chicken with very high ratind"
+        android:textAlignment="center"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+
+        />
+
+
+
+    <ImageView
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src='@drawable/space'
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="515dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" SPACE: density of birds per unit area
+                                      KukuApp enables customers to buy from our esteemed sellers quality chicken with very high ratind"
+        android:textAlignment="center"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+
+        />
+
+
+
+</RelativeLayout>

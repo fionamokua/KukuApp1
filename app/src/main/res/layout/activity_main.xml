@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:visibility="visible"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KukuApp"
+        android:textSize='68sp'
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id='@+id/frameLayout'
+     />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+       >
+
+        <Button
+            android:id="@+id/Fragment1btn"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_signin"
+            android:text="Trade" />
+        <Button
+            android:id="@+id/Fragment2btn"
+            android:layout_width="5dp"
+            android:layout_weight="1"
+            android:text="Learn"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/btn_signin"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

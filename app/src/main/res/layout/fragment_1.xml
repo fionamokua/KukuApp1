@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:id="@+id/trade"
+
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Trading Platform"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+
+
+        />
+    <ImageView
+        android:id='@+id/imgBuy'
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src='@drawable/buy'
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="180dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BUY KUKU.
+                                         KukuApp enables customers to buy from our esteemed sellers quality chicken with very high ratind"
+        android:textAlignment="center"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"
+        />
+    <Button
+        android:background="@drawable/btn_signin"
+        android:layout_width="100dp"
+        android:id="@+id/buy"
+
+        android:layout_weight="1"
+        android:text="BUY KUKU"
+
+        android:layout_height="35dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="10dp"
+
+        />
+
+    <ImageView
+        android:id='@+id/imgBuy'
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src='@drawable/sell'
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="420dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" SELL KUKU
+                                      KukuApp enables customers to buy from our esteemed sellers quality chicken with very high ratind"
+        android:textAlignment="center"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+
+        android:layout_width="100dp"
+        android:id="@+id/sell"
+
+        android:layout_weight="1"
+        android:text="SELL KUKU"
+        android:background="@drawable/sellbtn"
+        android:layout_height="35dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="300dp"
+
+        android:textSize="10dp"
+
+
+        />
+</RelativeLayout>
